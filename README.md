@@ -1,5 +1,4 @@
 # SoulMirror
-
 Built with Python (Flask) and HTML/CSS, SoulMirror combines machine learning and a clean, engaging 
 interface to make personality assessment: 
 • Fun and interactive – answer questions one by one with an intuitive interface 
