@@ -1,9 +1,121 @@
-# SoulMirror
-Built with Python (Flask) and HTML/CSS, SoulMirror combines machine learning and a clean, engaging 
-interface to make personality assessment: 
+# SoulMirror – MBTI Personality Prediction System
 
-• Fun and interactive – answer questions one by one with an intuitive interface 
-• Personalized – see your unique personality type and traits 
-• Shareable – great for self-reflection, team-building, or social quizzes 
+> “See Yourself Reflected Back!”
 
-Step into SoulMirror and see yourself reflected like never before!
+SoulMirror is a Machine Learning powered web application that predicts a user's MBTI personality type using a short personality questionnaire.
+
+The system uses a trained Random Forest Classification model built with Scikit-learn and deployed through a Flask web application.
+
+---
+
+# Features
+
+• Predicts all 16 MBTI personality types  
+• Machine Learning based prediction system  
+• Interactive Flask web application  
+• Modern responsive UI with custom CSS  
+• Uses personality dataset for model training  
+• Fast real-time personality prediction  
+• Displays detailed personality descriptions  
+
+---
+
+# Tech Stack
+
+## Frontend
+• HTML5  
+• CSS3  
+
+## Backend
+• Python  
+• Flask  
+
+## Machine Learning
+• Scikit-learn  
+• Random Forest Classifier  
+• StandardScaler  
+• Pandas  
+• NumPy  
+• Joblib  
+
+---
+
+# Project Structure
+
+```bash
+SoulMirror/
+│
+├── app.py
+├── train.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+├── data/
+│   ├── 16P.csv
+│   └── 16p-Mapping.txt
+│
+├── models/
+│   ├── personality_model_10.pkl
+│   ├── personality_model.pkl
+│   ├── scaler_10.pkl
+│   └── scaler.pkl
+│
+├── static/
+│   └── style.css
+│
+├── templates/
+│   ├── index.html
+│   └── result.html
+```
+
+# How It Works
+Step 1 — User Answers Questions
+The user answers 10 personality-based questions through the web interface.
+
+Step 2 — Data Preprocessing
+The answers are scaled using StandardScaler.
+
+Step 3 — ML Prediction
+The trained Random Forest model predicts the user's MBTI personality type.
+
+Step 4 — Result Display
+The predicted personality type and description are displayed on the result page.
+
+
+# MBTI Personality Types Supported
+
+• INTJ – The Mastermind
+• INTP – The Thinker
+• ENTJ – The Commander
+• ENTP – The Debater
+• INFJ – The Advocate
+• INFP – The Mediator
+• ENFJ – The Protagonist
+• ENFP – The Campaigner
+• ISTJ – The Inspector
+• ISFJ – The Nurturer
+• ESTJ – The Supervisor
+• ESFJ – The Provider
+• ISTP – The Virtuoso
+• ISFP – The Artist
+• ESTP – The Dynamo
+• ESFP – The Performer
+
+
+User Interface
+
+The application includes:
+• Animated UI
+• Dark modern theme
+• Interactive radio buttons
+• Responsive card layout
+• Result visualization pages
+
+# Author
+FAHEEMA TAMTON
+AI & ML Engineer
+
+
+License
+This project is licensed under the MIT License.
