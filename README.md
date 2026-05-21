@@ -103,14 +103,7 @@ The predicted personality type and description are displayed on the result page.
 • ESFP – The Performer
 
 
-User Interface
 
-The application includes:
-• Animated UI
-• Dark modern theme
-• Interactive radio buttons
-• Responsive card layout
-• Result visualization pages
 
 # Author
 FAHEEMA TAMTON
