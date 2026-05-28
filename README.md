@@ -26,9 +26,7 @@ The system uses a trained Random Forest Classification model built with Scikit-l
 • HTML5  
 • CSS3  
 
-## Backend
-• Python  
-• Flask  
+ 
 
 ## Machine Learning
 • Scikit-learn  
