@@ -102,7 +102,13 @@ The predicted personality type and description are displayed on the result page.
 • ESTP – The Dynamo
 • ESFP – The Performer
 
-
+User Interphase
+The application includes:
+• Animated UI
+• Dark modern theme
+• Interactive radio buttons
+• Responsive card layout
+• Result visualization pages
 
 
 # Author
